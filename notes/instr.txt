@@ -1,0 +1,9 @@
+cargo install -f wasm-bindgen-cli
+   Installed package `wasm-bindgen-cli v0.2.84` (executables `wasm-bindgen`, `wasm-bindgen-test-runner`, `wasm2es6js`)
+    warning: be sure to add `/home/santokalayil/.cargo/bin` to your PATH to be able to run the installed binaries
+    
+
+cargo install trunk
+rustup target add wasm32-unknown-unknown
+
+trunk serve --open
